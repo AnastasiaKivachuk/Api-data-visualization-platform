@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShipCard component should render ShipCard component 1`] = `
+<ForwardRef(Card)
+  sx={
+    Object {
+      "maxWidth": 345,
+    }
+  }
+>
+  <ForwardRef(CardMedia)
+    alt="green iguana"
+    component="img"
+    height="140"
+    image="https://i.imgur.com/GvtuYUN.jpg"
+  />
+  <ForwardRef(CardContent)>
+    <ForwardRef(Typography)
+      component="div"
+      gutterBottom={true}
+      variant="h5"
+    >
+      NRC Quest
+    </ForwardRef(Typography)>
+    <ForwardRef(Typography)
+      color="text.secondary"
+      variant="body2"
+    >
+      Marmac 303
+       - 
+      2002
+    </ForwardRef(Typography)>
+  </ForwardRef(CardContent)>
+  <ForwardRef(CardActions)>
+    <ForwardRef(Button)
+      onClick={[Function]}
+      size="small"
+      variant="outlined"
+    >
+      Learn More
+    </ForwardRef(Button)>
+  </ForwardRef(CardActions)>
+</ForwardRef(Card)>
+`;

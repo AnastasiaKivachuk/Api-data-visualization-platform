@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users component check usersColumns config 1`] = `
+Array [
+  Object {
+    "field": "id",
+    "headerName": "id",
+    "sortable": false,
+    "width": 200,
+  },
+  Object {
+    "field": "name",
+    "headerName": "Name",
+    "valueGetter": [Function],
+    "width": 230,
+  },
+  Object {
+    "field": "rocket",
+    "headerName": "Rocket",
+    "valueGetter": [Function],
+    "width": 230,
+  },
+  Object {
+    "field": "twitter",
+    "headerName": "Twitter",
+    "valueGetter": [Function],
+    "width": 230,
+  },
+  Object {
+    "field": "timestamp",
+    "headerName": "Date registration",
+    "valueGetter": [Function],
+    "width": 230,
+  },
+]
+`;
+
+exports[`Users component should render Users component with default props 1`] = `
+<Fragment>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h2"
+  >
+    Users
+  </ForwardRef(Typography)>
+  <div
+    style={
+      Object {
+        "height": 640,
+        "width": "100%",
+      }
+    }
+  >
+    <ForwardRef(Typography)
+      textAlign="center"
+      variant="h4"
+    >
+      No Data
+    </ForwardRef(Typography)>
+  </div>
+</Fragment>
+`;
+
+exports[`Users component should render Users component with props 1`] = `
+<Fragment>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h2"
+  >
+    Users
+  </ForwardRef(Typography)>
+  <div
+    style={
+      Object {
+        "height": 640,
+        "width": "100%",
+      }
+    }
+  >
+    <Memo(ForwardRef(DataGrid))
+      columns={
+        Array [
+          Object {
+            "field": "id",
+            "headerName": "id",
+            "sortable": false,
+            "width": 200,
+          },
+          Object {
+            "field": "name",
+            "headerName": "Name",
+            "valueGetter": [Function],
+            "width": 230,
+          },
+          Object {
+            "field": "rocket",
+            "headerName": "Rocket",
+            "valueGetter": [Function],
+            "width": 230,
+          },
+          Object {
+            "field": "twitter",
+            "headerName": "Twitter",
+            "valueGetter": [Function],
+            "width": 230,
+          },
+          Object {
+            "field": "timestamp",
+            "headerName": "Date registration",
+            "valueGetter": [Function],
+            "width": 230,
+          },
+        ]
+      }
+      pageSize={10}
+      rows={
+        Array [
+          Object {
+            "id": "577073b9-1aac-4952-a673-9d4cf1895c51",
+            "name": "defaultQ1213456789",
+            "rocket": null,
+            "timestamp": "2022-06-14T00:34:47.625834+00:00",
+            "twitter": null,
+          },
+        ]
+      }
+      rowsPerPageOptions={
+        Array [
+          10,
+        ]
+      }
+    />
+  </div>
+</Fragment>
+`;

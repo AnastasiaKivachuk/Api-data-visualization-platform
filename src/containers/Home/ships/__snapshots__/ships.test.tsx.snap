@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ships component should render Ships component 1`] = `
+<Styled(div)>
+  <ForwardRef(Typography)
+    gutterBottom={true}
+    textAlign="center"
+    variant="h4"
+  >
+    Ships
+  </ForwardRef(Typography)>
+  <ForwardRef(Grid)
+    container={true}
+    gap="20px"
+    justifyContent="center"
+  >
+    <ShipCard
+      id="NRCQUEST"
+      image="https://i.imgur.com/GvtuYUN.jpg"
+      key="NRCQUEST"
+      model="Marmac 303"
+      name="NRC Quest"
+      url="https://www.marinetraffic.com/en/ais/details/ships/shipid:447294/vessel:NRC%20QUEST"
+      year_built={2002}
+    />
+  </ForwardRef(Grid)>
+</Styled(div)>
+`;

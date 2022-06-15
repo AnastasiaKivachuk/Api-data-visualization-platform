@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RocketCard component should render RocketCard component 1`] = `
+<ForwardRef(Card)
+  sx={
+    Object {
+      "maxWidth": 345,
+    }
+  }
+>
+  <ForwardRef(CardContent)>
+    <ForwardRef(Typography)
+      component="div"
+      gutterBottom={true}
+      variant="h5"
+    >
+      Falcon 1
+    </ForwardRef(Typography)>
+    <ForwardRef(Typography)
+      color="text.secondary"
+      variant="body2"
+    >
+      The Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009. On 28 September 2008, Falcon 1 became the first privately-developed liquid-fuel launch vehicle to go into orbit around the Earth.
+    </ForwardRef(Typography)>
+  </ForwardRef(CardContent)>
+  <ForwardRef(CardActions)>
+    <ForwardRef(Button)
+      onClick={[Function]}
+      size="small"
+      variant="outlined"
+    >
+      Learn More
+    </ForwardRef(Button)>
+  </ForwardRef(CardActions)>
+</ForwardRef(Card)>
+`;

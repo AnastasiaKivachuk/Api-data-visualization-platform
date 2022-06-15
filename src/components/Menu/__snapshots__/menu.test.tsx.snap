@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu component should render Menu component 1`] = `
+<ForwardRef(AppBar)>
+  <ForwardRef(Toolbar)>
+    <ForwardRef(Grid)
+      alignItems="center"
+      container={true}
+      justifyContent="space-between"
+    >
+      <Styled(div)>
+        <ForwardRef
+          color="inherit"
+          href="/"
+        >
+          <a>
+            <ForwardRef(Typography)
+              variant="h4"
+            >
+              Space X
+            </ForwardRef(Typography)>
+          </a>
+        </ForwardRef>
+      </Styled(div)>
+      <Styled(div)>
+        <ForwardRef
+          color="inherit"
+          href="/"
+          key="/"
+        >
+          <a>
+            <Styled(div)>
+              <ForwardRef(IconButton)
+                size="large"
+              >
+                <Memo(ForwardRef(HomeIcon)) />
+              </ForwardRef(IconButton)>
+            </Styled(div)>
+          </a>
+        </ForwardRef>
+        <ForwardRef
+          color="inherit"
+          href="/users"
+          key="/users"
+        >
+          <a>
+            <Styled(div)>
+              <ForwardRef(IconButton)
+                size="large"
+              >
+                <Memo(ForwardRef(GroupIcon)) />
+              </ForwardRef(IconButton)>
+              <ForwardRef(Typography)
+                lineHeight="48px"
+                variant="h6"
+              >
+                Users
+              </ForwardRef(Typography)>
+            </Styled(div)>
+          </a>
+        </ForwardRef>
+        <ForwardRef
+          color="inherit"
+          href="/launches"
+          key="/launches"
+        >
+          <a>
+            <Styled(div)>
+              <ForwardRef(IconButton)
+                size="large"
+              >
+                <Memo(ForwardRef(RocketLaunchIcon)) />
+              </ForwardRef(IconButton)>
+              <ForwardRef(Typography)
+                lineHeight="48px"
+                variant="h6"
+              >
+                Launches
+              </ForwardRef(Typography)>
+            </Styled(div)>
+          </a>
+        </ForwardRef>
+      </Styled(div)>
+    </ForwardRef(Grid)>
+  </ForwardRef(Toolbar)>
+</ForwardRef(AppBar)>
+`;

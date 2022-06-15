@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompanyTable component should render CompanyTable component 1`] = `
+<ForwardRef(TableContainer)
+  component={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": Object {
+        "children": [Function],
+        "className": [Function],
+        "classes": [Function],
+        "component": [Function],
+        "elevation": [Function],
+        "square": [Function],
+        "sx": [Function],
+        "variant": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  sx={
+    Object {
+      "margin": "20px auto",
+      "width": "fit-content",
+    }
+  }
+>
+  <ForwardRef(Table)
+    align="center"
+    aria-label="simple table"
+    sx={
+      Object {
+        "width": 450,
+      }
+    }
+  >
+    <ForwardRef(TableBody)>
+      <ForwardRef(TableRow)
+        key="1"
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          component="th"
+          scope="row"
+        >
+          CEO
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="right"
+        >
+          <ForwardRef
+            href="https://twitter.com/elonmusk"
+            target="_blank"
+          >
+            <a>
+              Elon Musk
+            </a>
+          </ForwardRef>
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+      <ForwardRef(TableRow)
+        key="2"
+        sx={
+          Object {
+            "&:last-child td, &:last-child th": Object {
+              "border": 0,
+            },
+          }
+        }
+      >
+        <ForwardRef(TableCell)
+          component="th"
+          scope="row"
+        >
+          Employees
+        </ForwardRef(TableCell)>
+        <ForwardRef(TableCell)
+          align="right"
+        >
+          7000
+        </ForwardRef(TableCell)>
+      </ForwardRef(TableRow)>
+    </ForwardRef(TableBody)>
+  </ForwardRef(Table)>
+</ForwardRef(TableContainer)>
+`;

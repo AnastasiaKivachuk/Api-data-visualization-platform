@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorPage component should render ErrorPage component with default Props 1`] = `
+<Fragment>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h1"
+  >
+    404
+  </ForwardRef(Typography)>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h3"
+  >
+    Ooops, something went wrong
+  </ForwardRef(Typography)>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="subtitle1"
+  >
+    The page you are looking for doesn't exist or an other error occurred. Go back, or head over to the main page.
+  </ForwardRef(Typography)>
+  <ForwardRef
+    href="/"
+  >
+    <ForwardRef(Button)
+      variant="contained"
+    >
+      Go to the main page
+    </ForwardRef(Button)>
+  </ForwardRef>
+</Fragment>
+`;
+
+exports[`ErrorPage component should render ErrorPage component with props 1`] = `
+<Fragment>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h1"
+  >
+    500
+  </ForwardRef(Typography)>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h3"
+  >
+    Ooops, something went wrong
+  </ForwardRef(Typography)>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="subtitle1"
+  >
+    The server encountered an internal error or misconfiguration. Please, refresh this page or try again later.
+  </ForwardRef(Typography)>
+  <ForwardRef
+    href="/"
+  >
+    <ForwardRef(Button)
+      variant="contained"
+    >
+      Go to the main page
+    </ForwardRef(Button)>
+  </ForwardRef>
+</Fragment>
+`;

@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MockLaunchData component should render MockLaunchData component with status false 1`] = `
+<Fragment>
+  <ForwardRef(Grid)
+    alignItems="center"
+    container={true}
+    gap="15px"
+    justifyContent="center"
+  >
+    <ForwardRef(Typography)
+      textAlign="center"
+      variant="h2"
+    >
+      Thaicom 6
+    </ForwardRef(Typography)>
+    <Styled(Component) />
+  </ForwardRef(Grid)>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h6"
+  >
+    Date of launch: 
+    06.01.2014, 21:06 PM
+  </ForwardRef(Typography)>
+  <Styled(img)
+    alt="logo"
+    src="https://images2.imgbox.com/d8/6d/fnqIBEJh_o.png"
+  />
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="subtitle1"
+  >
+    Second GTO launch for Falcon 9. The USAF evaluated launch data from this flight as part of a separate certification program for SpaceX to qualify to fly U.S. military payloads and found that the Thaicom 6 launch had "unacceptable fuel reserves at engine cutoff of the stage 2 second burnoff
+  </ForwardRef(Typography)>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h3"
+  >
+    Rocket: 
+    Falcon 9
+  </ForwardRef(Typography)>
+  <StyledCarousel
+    alt="Falcon 9"
+    imagesUrls={
+      Array [
+        "https://farm9.staticflickr.com/8617/16789019815_f99a165dc5_o.jpg",
+        "https://farm8.staticflickr.com/7619/16763151866_35a0a4d8e1_o.jpg",
+        "https://farm9.staticflickr.com/8569/16169086873_4d8829832e_o.png",
+      ]
+    }
+  />
+  <UsefulLinks
+    launchLinks={
+      Object {
+        "article_link": "http://spacenews.com/38959spacex-delivers-thaicom-6-satellite-to-orbit/",
+        "flickr_images": Array [
+          "https://farm9.staticflickr.com/8617/16789019815_f99a165dc5_o.jpg",
+          "https://farm8.staticflickr.com/7619/16763151866_35a0a4d8e1_o.jpg",
+          "https://farm9.staticflickr.com/8569/16169086873_4d8829832e_o.png",
+        ],
+        "mission_patch_small": "https://images2.imgbox.com/d8/6d/fnqIBEJh_o.png",
+        "video_link": "https://www.youtube.com/watch?v=AnSNRzMEmCU",
+        "wikipedia": "https://en.wikipedia.org/wiki/Thaicom_6",
+      }
+    }
+  />
+</Fragment>
+`;
+
+exports[`MockLaunchData component should render MockLaunchData component with status true 1`] = `
+<Fragment>
+  <ForwardRef(Grid)
+    alignItems="center"
+    container={true}
+    gap="15px"
+    justifyContent="center"
+  >
+    <ForwardRef(Typography)
+      textAlign="center"
+      variant="h2"
+    >
+      Thaicom 6
+    </ForwardRef(Typography)>
+    <Styled(Component) />
+  </ForwardRef(Grid)>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h6"
+  >
+    Date of launch: 
+    06.01.2014, 21:06 PM
+  </ForwardRef(Typography)>
+  <Styled(img)
+    alt="logo"
+    src="https://images2.imgbox.com/d8/6d/fnqIBEJh_o.png"
+  />
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="subtitle1"
+  >
+    Second GTO launch for Falcon 9. The USAF evaluated launch data from this flight as part of a separate certification program for SpaceX to qualify to fly U.S. military payloads and found that the Thaicom 6 launch had "unacceptable fuel reserves at engine cutoff of the stage 2 second burnoff
+  </ForwardRef(Typography)>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h3"
+  >
+    Rocket: 
+    Falcon 9
+  </ForwardRef(Typography)>
+  <StyledCarousel
+    alt="Falcon 9"
+    imagesUrls={
+      Array [
+        "https://farm9.staticflickr.com/8617/16789019815_f99a165dc5_o.jpg",
+        "https://farm8.staticflickr.com/7619/16763151866_35a0a4d8e1_o.jpg",
+        "https://farm9.staticflickr.com/8569/16169086873_4d8829832e_o.png",
+      ]
+    }
+  />
+  <UsefulLinks
+    launchLinks={
+      Object {
+        "article_link": "http://spacenews.com/38959spacex-delivers-thaicom-6-satellite-to-orbit/",
+        "flickr_images": Array [
+          "https://farm9.staticflickr.com/8617/16789019815_f99a165dc5_o.jpg",
+          "https://farm8.staticflickr.com/7619/16763151866_35a0a4d8e1_o.jpg",
+          "https://farm9.staticflickr.com/8569/16169086873_4d8829832e_o.png",
+        ],
+        "mission_patch_small": "https://images2.imgbox.com/d8/6d/fnqIBEJh_o.png",
+        "video_link": "https://www.youtube.com/watch?v=AnSNRzMEmCU",
+        "wikipedia": "https://en.wikipedia.org/wiki/Thaicom_6",
+      }
+    }
+  />
+</Fragment>
+`;

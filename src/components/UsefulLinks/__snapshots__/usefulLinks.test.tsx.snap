@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsefulLinks component should render Menu component 1`] = `
+<Styled(div)>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h3"
+  >
+    Usefully Links:
+  </ForwardRef(Typography)>
+  <ForwardRef(Grid)
+    container={true}
+    gap="20px"
+    justifyContent="center"
+  >
+    <ForwardRef
+      href="http://spacenews.com/38959spacex-delivers-thaicom-6-satellite-to-orbit/"
+      key="http://spacenews.com/38959spacex-delivers-thaicom-6-satellite-to-orbit/"
+      target="_blank"
+    >
+      <a>
+        <Memo(ForwardRef(ArticleIcon)) />
+      </a>
+    </ForwardRef>
+    <ForwardRef
+      href="https://www.youtube.com/watch?v=AnSNRzMEmCU"
+      key="https://www.youtube.com/watch?v=AnSNRzMEmCU"
+      target="_blank"
+    >
+      <a>
+        <Memo(ForwardRef(YouTubeIcon)) />
+      </a>
+    </ForwardRef>
+    <ForwardRef
+      href="https://en.wikipedia.org/wiki/Thaicom_6"
+      key="https://en.wikipedia.org/wiki/Thaicom_6"
+      target="_blank"
+    >
+      <a>
+        <Memo(ForwardRef(SchoolIcon)) />
+      </a>
+    </ForwardRef>
+  </ForwardRef(Grid)>
+</Styled(div)>
+`;

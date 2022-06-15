@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyledCarousel component should render StyledCarousel component 1`] = `
+<Styled(Carousel)
+  NextIcon={<UNDEFINED />}
+  PrevIcon={<UNDEFINED />}
+>
+  <Styled(div)
+    key="https://farm9.staticflickr.com/8617/16789019815_f99a165dc5_o.jpg"
+  >
+    <Styled(img)
+      alt="Thaicom 6"
+      src="https://farm9.staticflickr.com/8617/16789019815_f99a165dc5_o.jpg"
+    />
+  </Styled(div)>
+  <Styled(div)
+    key="https://farm8.staticflickr.com/7619/16763151866_35a0a4d8e1_o.jpg"
+  >
+    <Styled(img)
+      alt="Thaicom 6"
+      src="https://farm8.staticflickr.com/7619/16763151866_35a0a4d8e1_o.jpg"
+    />
+  </Styled(div)>
+  <Styled(div)
+    key="https://farm9.staticflickr.com/8569/16169086873_4d8829832e_o.png"
+  >
+    <Styled(img)
+      alt="Thaicom 6"
+      src="https://farm9.staticflickr.com/8569/16169086873_4d8829832e_o.png"
+    />
+  </Styled(div)>
+</Styled(Carousel)>
+`;
+
+exports[`StyledCarousel component should render StyledCarousel component without props 1`] = `
+<Styled(Carousel)
+  NextIcon={<UNDEFINED />}
+  PrevIcon={<UNDEFINED />}
+/>
+`;

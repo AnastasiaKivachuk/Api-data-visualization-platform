@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Launches component check usersColumns config 1`] = `
+Array [
+  Object {
+    "field": "id",
+    "headerName": "id",
+    "sortable": false,
+    "width": 70,
+  },
+  Object {
+    "field": "mission_name",
+    "headerName": "Mission Name",
+    "valueGetter": [Function],
+    "width": 200,
+  },
+  Object {
+    "field": "launch_date_utc",
+    "headerName": "Launch Date",
+    "valueGetter": [Function],
+    "width": 200,
+  },
+  Object {
+    "field": "rocket_name",
+    "headerName": "Rocket Name",
+    "valueGetter": [Function],
+    "width": 200,
+  },
+  Object {
+    "field": "site_name",
+    "headerName": "Site",
+    "valueGetter": [Function],
+    "width": 200,
+  },
+  Object {
+    "field": "button",
+    "headerName": "",
+    "renderCell": [Function],
+    "sortable": false,
+    "type": "actions",
+    "width": 200,
+  },
+]
+`;
+
+exports[`Launches component should render Launches component with default props 1`] = `
+<Fragment>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h2"
+  >
+    Launches
+  </ForwardRef(Typography)>
+  <div
+    style={
+      Object {
+        "height": 700,
+        "width": "100%",
+      }
+    }
+  >
+    <ForwardRef(Typography)
+      textAlign="center"
+      variant="h4"
+    >
+      No Data
+    </ForwardRef(Typography)>
+  </div>
+</Fragment>
+`;
+
+exports[`Launches component should render Launches component with props 1`] = `
+<Fragment>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h2"
+  >
+    Launches
+  </ForwardRef(Typography)>
+  <div
+    style={
+      Object {
+        "height": 700,
+        "width": "100%",
+      }
+    }
+  >
+    <Memo(ForwardRef(DataGrid))
+      columns={
+        Array [
+          Object {
+            "field": "id",
+            "headerName": "id",
+            "sortable": false,
+            "width": 70,
+          },
+          Object {
+            "field": "mission_name",
+            "headerName": "Mission Name",
+            "valueGetter": [Function],
+            "width": 200,
+          },
+          Object {
+            "field": "launch_date_utc",
+            "headerName": "Launch Date",
+            "valueGetter": [Function],
+            "width": 200,
+          },
+          Object {
+            "field": "rocket_name",
+            "headerName": "Rocket Name",
+            "valueGetter": [Function],
+            "width": 200,
+          },
+          Object {
+            "field": "site_name",
+            "headerName": "Site",
+            "valueGetter": [Function],
+            "width": 200,
+          },
+          Object {
+            "field": "button",
+            "headerName": "",
+            "renderCell": [Function],
+            "sortable": false,
+            "type": "actions",
+            "width": 200,
+          },
+        ]
+      }
+      pageSize={10}
+      rows={
+        Array [
+          Object {
+            "id": "13",
+            "launch_date_utc": "2014-01-06T18:06:00.000Z",
+            "launch_site": Object {
+              "site_name": "CCAFS SLC 40",
+            },
+            "mission_name": "Thaicom 6",
+            "rocket": Object {
+              "rocket_name": "Falcon 9",
+            },
+          },
+        ]
+      }
+      rowsPerPageOptions={
+        Array [
+          10,
+        ]
+      }
+    />
+  </div>
+</Fragment>
+`;

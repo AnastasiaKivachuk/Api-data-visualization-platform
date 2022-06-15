@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout component should render Layout component 1`] = `
+<ForwardRef(Grid)
+  item={true}
+>
+  <Menu />
+  <Styled(Component)>
+    <div>
+      test Component
+    </div>
+  </Styled(Component)>
+</ForwardRef(Grid)>
+`;

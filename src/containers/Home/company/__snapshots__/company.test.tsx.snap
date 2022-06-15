@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Company component should render Company component 1`] = `
+<Styled(div)>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h2"
+  >
+    <ForwardRef
+      href="https://www.spacex.com/"
+      target="_blank"
+    >
+      <a>
+        SpaceX
+      </a>
+    </ForwardRef>
+  </ForwardRef(Typography)>
+  <ForwardRef(Typography)
+    textAlign="center"
+    variant="h6"
+  >
+    SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.
+  </ForwardRef(Typography)>
+  <CompanyTable
+    config={
+      Array [
+        Object {
+          "id": 1,
+          "leftColumn": "CEO",
+          "rightColumn": <ForwardRef
+            href="https://twitter.com/elonmusk"
+            target="_blank"
+          >
+            <a>
+              Elon Musk
+            </a>
+          </ForwardRef>,
+        },
+        Object {
+          "id": 2,
+          "leftColumn": "Employees",
+          "rightColumn": 7000,
+        },
+        Object {
+          "id": 3,
+          "leftColumn": "Founded",
+          "rightColumn": 2002,
+        },
+        Object {
+          "id": 4,
+          "leftColumn": "Founder",
+          "rightColumn": <ForwardRef
+            href="https://twitter.com/elonmusk"
+            target="_blank"
+          >
+            <a>
+              Elon Musk
+            </a>
+          </ForwardRef>,
+        },
+      ]
+    }
+  />
+</Styled(div)>
+`;
