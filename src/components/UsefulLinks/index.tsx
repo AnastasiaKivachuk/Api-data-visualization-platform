@@ -15,14 +15,13 @@ type Props = {
 
 }
 
+const Wrap = styled.div`
+  margin: 20px auto;
+`
+
 const icons = {article_link: <ArticleIcon/>, video_link: <YouTubeIcon/>, wikipedia: <SchoolIcon/>}
 
 const UsefulLinks = ({launchLinks}: Props): JSX.Element => {
-
-    const Wrap = styled.div`
-      margin: 20px auto;
-    `
-
     // @ts-ignore
     const getLinks = (launchLinks) = Object.keys(launchLinks).map(item => ({icon: icons[item], url: launchLinks[item]})).filter(item => item?.icon);
 

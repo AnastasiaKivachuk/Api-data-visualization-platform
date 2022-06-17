@@ -1,5 +1,8 @@
-import {getDateWithFormat} from "./functions.helpers";
+import * as React from "react";
+
+import {getDateWithFormat, showToast} from "./functions.helpers";
 import {DATE_FORMAT} from "../constants/global.constants";
+import Toast from "../components/Toast";
 
 describe("getDateWithFormat util", () => {
     it('Positive getDateWithFormat case with default props', () => {
@@ -14,5 +17,12 @@ describe("getDateWithFormat util", () => {
     })
     it('Negative getDateWithFormat case', () => {
         expect(getDateWithFormat('')).toBeNull()
+    })
+});
+
+describe("showToast util", () => {
+    it('showToast render toast', () => {
+        expect(showToast({})).toEqual(
+            <Toast text="Success!" type="success" />)
     })
 });

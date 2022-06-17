@@ -11,20 +11,19 @@ import {getDateWithFormat} from "../../helpers/functions.helpers";
 import UsefulLinks from "../../components/UsefulLinks";
 import Grid from "@mui/material/Grid";
 
-
-const Launch = ({launch}: LaunchWithDetailsFullInterface) => {
-
-    const ImgIcon = styled.img`
+const ImgIcon = styled.img`
       margin: 0 auto;
     `
 
-    const StyledCheckIcon = styled(CheckIcon)`
+const StyledCheckIcon = styled(CheckIcon)`
       color: green;
     `
-    const StyledCancelIcon = styled(CancelIcon)`
+
+const StyledCancelIcon = styled(CancelIcon)`
       color: red;
     `
 
+const Launch = ({launch}: LaunchWithDetailsFullInterface) => {
     return (
         <>
             <Grid container alignItems={'center'} justifyContent={'center'} gap='15px'>

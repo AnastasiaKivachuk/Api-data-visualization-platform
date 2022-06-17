@@ -1,48 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Users component check usersColumns config 1`] = `
-Array [
-  Object {
-    "field": "id",
-    "headerName": "id",
-    "sortable": false,
-    "width": 200,
-  },
-  Object {
-    "field": "name",
-    "headerName": "Name",
-    "valueGetter": [Function],
-    "width": 230,
-  },
-  Object {
-    "field": "rocket",
-    "headerName": "Rocket",
-    "valueGetter": [Function],
-    "width": 230,
-  },
-  Object {
-    "field": "twitter",
-    "headerName": "Twitter",
-    "valueGetter": [Function],
-    "width": 230,
-  },
-  Object {
-    "field": "timestamp",
-    "headerName": "Date registration",
-    "valueGetter": [Function],
-    "width": 230,
-  },
-]
-`;
+exports[` 1`] = `[Function]`;
 
 exports[`Users component should render Users component with default props 1`] = `
-<Fragment>
+<Styled(div)>
   <ForwardRef(Typography)
     textAlign="center"
     variant="h2"
   >
     Users
   </ForwardRef(Typography)>
+  <ForwardRef(Button)
+    onClick={[Function]}
+    variant="contained"
+  >
+    Add User
+  </ForwardRef(Button)>
   <div
     style={
       Object {
@@ -58,17 +31,33 @@ exports[`Users component should render Users component with default props 1`] = 
       No Data
     </ForwardRef(Typography)>
   </div>
-</Fragment>
+  <ForwardRef(LoadableComponent)
+    addNewUser={[Function]}
+    isOpen={false}
+    onClose={[Function]}
+  />
+  <ForwardRef(LoadableComponent)
+    deleteUser={[Function]}
+    isOpen={false}
+    onClose={[Function]}
+  />
+</Styled(div)>
 `;
 
 exports[`Users component should render Users component with props 1`] = `
-<Fragment>
+<Styled(div)>
   <ForwardRef(Typography)
     textAlign="center"
     variant="h2"
   >
     Users
   </ForwardRef(Typography)>
+  <ForwardRef(Button)
+    onClick={[Function]}
+    variant="contained"
+  >
+    Add User
+  </ForwardRef(Button)>
   <div
     style={
       Object {
@@ -96,19 +85,27 @@ exports[`Users component should render Users component with props 1`] = `
             "field": "rocket",
             "headerName": "Rocket",
             "valueGetter": [Function],
-            "width": 230,
+            "width": 200,
           },
           Object {
             "field": "twitter",
             "headerName": "Twitter",
             "valueGetter": [Function],
-            "width": 230,
+            "width": 200,
           },
           Object {
             "field": "timestamp",
             "headerName": "Date registration",
             "valueGetter": [Function],
             "width": 230,
+          },
+          Object {
+            "field": "button",
+            "headerName": "",
+            "renderCell": [Function],
+            "sortable": false,
+            "type": "actions",
+            "width": 60,
           },
         ]
       }
@@ -118,9 +115,9 @@ exports[`Users component should render Users component with props 1`] = `
           Object {
             "id": "577073b9-1aac-4952-a673-9d4cf1895c51",
             "name": "defaultQ1213456789",
-            "rocket": null,
+            "rocket": "123",
             "timestamp": "2022-06-14T00:34:47.625834+00:00",
-            "twitter": null,
+            "twitter": "12345",
           },
         ]
       }
@@ -131,5 +128,15 @@ exports[`Users component should render Users component with props 1`] = `
       }
     />
   </div>
-</Fragment>
+  <ForwardRef(LoadableComponent)
+    addNewUser={[Function]}
+    isOpen={false}
+    onClose={[Function]}
+  />
+  <ForwardRef(LoadableComponent)
+    deleteUser={[Function]}
+    isOpen={false}
+    onClose={[Function]}
+  />
+</Styled(div)>
 `;

@@ -9,15 +9,20 @@
     "lint": "next lint",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@apollo/client": "^3.6.6",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
+    "@hookform/resolvers": "^2.9.1",
     "@mui/icons-material": "^5.8.3",
+    "@mui/lab": "^5.0.0-alpha.86",
     "@mui/material": "^5.8.3",
     "@mui/x-data-grid": "^5.12.1",
+    "@playwright/test": "^1.22.2",
+    "@types/yup": "^0.29.14",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1",
     "graphql": "^16.5.0",
@@ -25,8 +30,10 @@
     "next": "12.1.6",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-hook-form": "^7.32.1",
     "react-material-ui-carousel": "^3.4.2",
-    "react-uuid": "^1.0.2"
+    "react-uuid": "^1.0.2",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.18.2",

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Launches component check usersColumns config 1`] = `
+exports[` 1`] = `
 Array [
   Object {
     "field": "id",

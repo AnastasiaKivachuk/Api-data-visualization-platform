@@ -10,12 +10,12 @@ import RocketCard from "../../../components/RocketCard";
 type Props = {
     rockets: RocketsInterface[]
 }
+
+const Wrapper = styled.div`
+  margin: 30px 0;
+`;
+
 const Rockets = ({rockets}: Props) => {
-
-    const Wrapper = styled.div`
-      margin: 30px 0;
-    `;
-
     return (
         <Wrapper>
             <Typography gutterBottom variant="h4" textAlign={'center'}>Rockets</Typography>

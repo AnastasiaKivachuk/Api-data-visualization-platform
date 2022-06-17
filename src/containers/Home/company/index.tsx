@@ -11,12 +11,12 @@ import {CompanyInterface} from "../../../interfaces/home.interface";
 type Props = {
     company: CompanyInterface
 }
+
+const Wrapper = styled.div`
+  margin: 30px 0;
+`;
+
 const Company = ({company}: Props) => {
-
-    const Wrapper = styled.div`
-      margin: 30px 0;
-    `;
-
     return (
         <Wrapper>
             <Typography variant="h2" textAlign='center'>

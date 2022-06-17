@@ -10,20 +10,19 @@ type Props = {
     alt: string
 }
 
+const StyledMuiCarousel = styled(Carousel)`
+  width: 100%;
+`
+const WrapImg = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
+const Img = styled.img`
+  max-height: 400px;
+`
+
 const StyledCarousel = ({imagesUrls, alt}: Props): JSX.Element => {
-
-    const StyledMuiCarousel = styled(Carousel)`
-      width: 100%;
-    `
-    const WrapImg = styled.div`
-      display: flex;
-      justify-content: center;
-    `
-
-    const Img = styled.img`
-      max-height: 400px;
-    `
-
     return (
         <StyledMuiCarousel
             NextIcon={<ArrowCircleRightSharpIcon/>}

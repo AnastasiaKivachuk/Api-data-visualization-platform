@@ -11,12 +11,12 @@ type Props = {
     ships: ShipsInterface[]
 }
 
+
+const Wrapper = styled.div`
+  margin: 30px 0;
+`;
+
 const Ships = ({ships}: Props) => {
-
-    const Wrapper = styled.div`
-      margin: 30px 0;
-    `;
-
     return (
         <Wrapper>
             <Typography gutterBottom variant="h4" textAlign={'center'}>Ships</Typography>
