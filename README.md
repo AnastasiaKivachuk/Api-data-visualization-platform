@@ -1,4 +1,8 @@
+## Api data visualization platform
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It contains [GraphQL - API](https://studio.apollographql.com/public/SpaceX-pxxbxen/home?variant=current) for requests, [Enzyme/Jest](https://enzymejs.github.io/enzyme/) for unit testing, [Playwright](https://playwright.dev/docs/intro) for e2e testing, [Styled Components](https://github.com/styled-components/styled-components) for styling, [Material-UI](https://mui.com/material-ui/getting-started/overview/) for components. 
+
+Platform that visualizes data taken from https://api.spacex.land/graphql/. Includes main page with the information about Space X company and it's ships and rockets, page with table with users data and ability to mutate it and page with rocket launches info.
 
 Project has a couple of pages: 
 - home page (with main info about SpaceX)
